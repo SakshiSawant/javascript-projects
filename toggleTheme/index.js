@@ -13,10 +13,11 @@ darkMode.addEventListener("click", dark)
 function light()
 {
     container.style.backgroundColor = "#ffffff";
+    headingTitle.style.color = "#000000";
 }
 
 function dark()
 {
     container.style.backgroundColor = "#000000";
     headingTitle.style.color = "#ffffff";
-}
+}      
