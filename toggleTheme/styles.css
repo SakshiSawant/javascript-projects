@@ -8,8 +8,15 @@
     border: 2px solid #000000;
     max-width: 500px;
     margin: auto;
+    margin-top: 5em;
+    padding: 1em;
 }
 
 .heading{
     text-align: center;
+}
+
+.select_container{
+    padding: 1em;
+    margin: auto;
 }
