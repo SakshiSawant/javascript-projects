@@ -12,3 +12,7 @@ let currentMinute = currentDate.getMinutes()
 countDate.textContent = countdown - currentDay
 countHours.textContent = 24 - currentHour
 countMinutes.textContent = 60 - currentMinute
+
+setTimeout(function() {
+  location.reload();
+}, 30000);
