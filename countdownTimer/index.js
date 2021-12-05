@@ -21,5 +21,7 @@ countDown()
 
 setTimeout(function () {
     location.reload()
-},3000)
+}, 3000)
+
+
 
